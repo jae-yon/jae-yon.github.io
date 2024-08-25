@@ -1,12 +1,12 @@
 .card_grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   gap: 10px;
 }
 
 .card {
   text-align: center;
-  padding: .5rem 1rem;
+  padding: 1rem .5rem;
   border: 1px solid rgb(209,213,219);
   border-radius: .375rem;
   box-shadow:
@@ -15,11 +15,12 @@
 }
 
 .card_title {
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .card_img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 

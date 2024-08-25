@@ -32,7 +32,8 @@ button {
   touch-action: manipulation;
 }
 button:hover {
-  background-color: rgb(246, 248, 250);
+  color: white;
+  background-color: #04AA6D;
 }
 
 /* header default*/
@@ -47,7 +48,7 @@ button:hover {
   color: #000;
   text-align: center;
   margin: .5rem 0;
-  padding: .725rem;
+  padding: 0rem 1rem;
   font-size: 16px;
   line-height: 2.5rem;
 }
@@ -62,12 +63,13 @@ button:hover {
   text-align: center;
   text-decoration: none;
   margin: .5rem;
-  padding: .725rem;
+  padding: 0rem 1rem;
   font-size: 16px;
   line-height: 2.5rem;
   border-radius: 4px;
 }
 
 .header .nav a:hover {
-  background-color: rgb(246, 248, 250);
+  color: white;
+  background-color: #04AA6D;
 }
